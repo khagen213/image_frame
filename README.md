@@ -1,10 +1,10 @@
 ##Digital Picture Frame App
 
-Purpose
+##Purpose
 
 The Digital Picture Frame App is a Flutter-based application that continuously rotates through a set of images stored in the cloud. It provides a visually appealing way to display images with a customizable border and a pause/resume feature for user control.
 
-Features
+##Features
 
 Automatically cycles through images every 10 seconds.
 
@@ -18,7 +18,7 @@ Error handling for image loading failures.
 
 Uses CachedNetworkImage for optimized image loading and caching.
 
-How It Works
+##How It Works
 
 The application loads a predefined list of image URLs.
 
@@ -30,25 +30,25 @@ Images are displayed with a rounded border for enhanced aesthetics.
 
 The app uses CachedNetworkImage to efficiently load and cache images, improving performance and reducing network requests.
 
-Installation and Usage
+##Installation and Usage
 
-Clone the repository:
+#Clone the repository:
 
-git clone <repository-url>
+git clone <repository_url>
 
-Navigate to the project directory:
+#Navigate to the project directory:
 
 cd digital_picture_frame
 
-Install dependencies:
+#Install dependencies:
 
 flutter pub get
 
-Run the application:
+#Run the application:
 
 flutter run
 
-Technologies Used
+##Technologies Used
 
 Flutter: Cross-platform UI toolkit.
 
@@ -58,7 +58,7 @@ CachedNetworkImage: Provides efficient image caching and loading.
 
 Timer: Used for automatic image transitions.
 
-Future Enhancements
+##Future Enhancements
 
 Allow users to upload their own images.
 
