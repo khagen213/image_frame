@@ -1,4 +1,4 @@
-Digital Picture Frame App
+##Digital Picture Frame App
 
 Purpose
 
